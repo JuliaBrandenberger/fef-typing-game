@@ -1,0 +1,14 @@
+.error {
+  background-color: red;
+}
+
+.highlight {
+  color: orange;
+  text-decoration: underline;
+}
+
+span::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+}
